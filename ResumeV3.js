@@ -1,4 +1,4 @@
-const DATA_URL = 'https://api.jsonbin.io/b/627e9bcf019db467969d8cc0/2';
+const DATA_URL = 'https://api.jsonbin.io/v3/b/64e719138e4aa6225ed49281';
 const regEmail = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
 fetch(DATA_URL)
     .then(response => response.json())
