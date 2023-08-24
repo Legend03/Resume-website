@@ -46,6 +46,7 @@ fetch(DATA_URL)
             </form>
         </footer>
     </main>`;
+        data = data.record;
         const main = body.querySelector('.center');
         // Таблица
         const tableAboutMe = document.createElement('table');
